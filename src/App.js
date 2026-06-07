@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import { AuthProvider, useAuth } from './hooks/useAuth';
 import LoginPage from './pages/LoginPage';
 import AdminPanel from './pages/AdminPanel';

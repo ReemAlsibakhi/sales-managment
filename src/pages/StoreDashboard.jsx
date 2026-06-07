@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { supabase } from '../lib/supabase';
-import { Card, Btn, Input, Select, Modal, StatCard, Toast, useToast, uid, fmt, fmtDate, diffDays } from '../components/UI';
+import { Card, Btn, Input, Select, Modal, StatCard, Toast, useToast, fmt, fmtDate, diffDays } from '../components/UI';
 
 
 export default function StoreDashboard({ session, onEmployeeLogout, onStoreLogout }) {
